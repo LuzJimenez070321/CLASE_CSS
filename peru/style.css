@@ -1,0 +1,39 @@
+.bandera_chile{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    background-image: linear-gradient(to bottom, #fff 50%, #ff0000 50%);
+    position: relative;
+    margin: 50px;
+  }
+  
+  .bandera-chile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+  }
+  
+  .bandera-chile::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 34.64px 20px;
+    border-color: transparent transparent #fff transparent;
+    transform: rotate(180deg);
+  }
+.bandera_peru{
+    width: 300px;
+  height: 200px;
+  border: 1px solid #000;
+  background-image: linear-gradient(to right, #ff0000 33.33%, #fff 33.33%, #fff 66.66%, #ff0000 66.66%);
+}
+  
+
